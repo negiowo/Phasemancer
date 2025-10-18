@@ -1,0 +1,24 @@
+# Unreal build & cache
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+.vscode/
+
+# Project files we don't want
+*.sln
+*.opensdf
+*.sdf
+*.tmp
+*.log
+*.user
+*.userprefs
+
+# Lighting data (regenerate)
+*_BuiltData.uasset
+
+# OS junk
+.DS_Store
+Thumbs.db
